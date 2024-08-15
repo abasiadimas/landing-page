@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -12,18 +14,156 @@
   src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 }
 
+/* General rules */
+:root {
+  --white: #f9f9f9;
+  --black: #000000;
+  --background-opacity: rgba(0, 0, 0, 0.65);
+  --grey: lightgray;
+  --cool-chocolate-brown: #1b1111;
+  --creamy-latte: #dcc7a1;
+  --warm-mocha: #8b5e3c;
+  --white-chocolate: #ede6d9;
+  --soft-ivory: #f8f1e4;
+  --deep-forest-green: #354b43;
+  --golden-honey: #c29245;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }
 
 body {
-  height: 100vh;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; */
+  justify-content: space-between;
+  /* overflow: hidden; */
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.margin-bt-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bt-40 {
+  margin-bottom: 40px;
+}
+
+/* Header - Hero */
+
+.header-hero {
+  background: var(--cool-chocolate-brown);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/our-coffee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Navigation Bar */
+
+nav {
+  background: var(--cool-chocolate-brown);
+  opacity: 0.7;
+  display: flex;
+  width: 100%;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo > img {
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 1.1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.menu li a:hover {
+  border-bottom: 3px solid var(--golden-honey);
+}
+
+/* Hero */
+
+.hero {
+  height: calc(100vh - 70px);
+  padding: 3rem 0;
+}
+
+.hero .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-philosophy {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.hero-philosophy > h1 {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.hero-philosophy > p {
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.hero-philosophy button {
+  background-color: var(--golden-honey);
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.hero-philosophy a {
+  text-decoration: none;
+  color: var(--soft-ivory);
+}
+
+.hero-philosophy a:hover {
+  color: var(--deep-forest-green);
+}
+
+/* Journey */
