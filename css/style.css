@@ -53,6 +53,10 @@ body {
   margin: 0 auto;
 }
 
+.margin-bt-10 {
+  margin-bottom: 10px;
+}
+
 .margin-bt-20 {
   margin-bottom: 20px;
 }
@@ -167,3 +171,50 @@ nav .container {
 }
 
 /* Journey */
+
+.journey {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 180px 0;
+}
+
+.journey-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.journey-title p {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.journey-process {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.journey-card {
+  width: 250px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.journey-card img {
+  width: 100px;
+  height: auto;
+}
+
+/* Ethical Practices */
+
+.ethical-practices {
+  height: 500px;
+  background-color: var(--deep-forest-green);
+}
