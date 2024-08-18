@@ -229,7 +229,7 @@ nav .container {
   justify-content: space-between;
 }
 
-.ethical-practices img {
+.ethical-practices .container img {
   flex: 1;
   height: 300px;
   margin-right: 200px;
@@ -344,7 +344,7 @@ nav .container {
   gap: 1rem;
 }
 
-.find-us h3 {
+.find-us h2 {
   font-size: 24px;
 }
 
@@ -404,4 +404,205 @@ nav .container {
   text-align: center;
   color: var(--white);
   font-size: 18px;
+}
+
+/* Media queries */
+
+/* Small devices */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  /* Navigation Bar */
+
+  nav .container {
+    justify-content: center;
+  }
+
+  .logo > img {
+    height: 40px;
+  }
+
+  .menu .hide {
+    display: none;
+  }
+
+  /* Hero */
+
+  .hero-philosophy > h1 {
+    font-size: 30px;
+  }
+
+  .hero-philosophy > p {
+    font-size: 16px;
+  }
+
+  /* Journey */
+
+  .journey {
+    padding: 50px 0 80px 0;
+  }
+
+  .journey-title {
+    font-size: 20px;
+  }
+
+  .journey-title p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .journey-process {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Ethical Practices */
+
+  .ethical-practices .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ethical-practices .container img {
+    height: 150px;
+    margin: 20px auto;
+  }
+
+  .ethical-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+  }
+
+  /* Coffee Blends */
+
+  .coffee-blends {
+    padding: 50px 0 80px 0;
+  }
+
+  .blend-title {
+    font-size: 20px;
+  }
+
+  .blend-title p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+
+  .blend-process {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .blend-card img {
+    width: 150px;
+    height: auto;
+  }
+
+  /* Footer */
+
+  .footer .container {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .company-info {
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .find-us {
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .find-us h2 {
+    font-size: 18px;
+  }
+
+  .newsletter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter h2 {
+    font-size: 18px;
+  }
+
+  .container-copyright {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Navigation Bar */
+
+  .logo > img {
+    height: 40px;
+  }
+  .menu li a {
+    font-size: 1rem;
+  }
+
+  /* Ethical Practices */
+
+  .ethical-practices .container img {
+    height: 180px;
+    margin-right: 100px;
+  }
+
+  .ethical-text p {
+    font-size: 20px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+  }
+
+  /* Footer */
+
+  .footer .container {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .company-info {
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .find-us {
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .find-us h2 {
+    font-size: 24px;
+  }
+
+  .newsletter {
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter h2 {
+    font-size: 24px;
+  }
+
+  .newsletter-input {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .newsletter-btn {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .container-copyright {
+    font-size: 18px;
+  }
 }
