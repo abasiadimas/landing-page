@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Bean Brewers</title>
   </head>
   <body>
-    <div class="header-hero">
+    <div class="header-hero" id="home">
       <nav>
         <div class="container">
           <div class="logo">
@@ -16,9 +17,9 @@
           <div class="menu">
             <ul>
               <li><a href="#journey">Journey</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#ethics">Ethics</a></li>
+              <li><a href="#blends">Blends</a></li>
+              <li><a href="#info">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -33,7 +34,7 @@
               Experience the art of coffee at Bean Brewers. From farm to cup,
               every sip tells a story.
             </p>
-            <button type="button"><a href="#">Order Online</a></button>
+            <button type="button"><a href="#journey">Learn more</a></button>
           </div>
         </div>
       </section>
@@ -48,7 +49,11 @@
         </div>
         <div class="journey-process">
           <div class="journey-card">
-            <img src="./img/cultivation.svg" alt="" class="margin-bt-20" />
+            <img
+              src="./img/cultivation.svg"
+              alt="An icon shows the coffee beans plant"
+              class="margin-bt-20"
+            />
             <h3 class="margin-bt-10">Nurture</h3>
             <p>
               Our journey begins in the rich soils of the Coffee Belt, where we
@@ -56,7 +61,11 @@
             </p>
           </div>
           <div class="journey-card">
-            <img src="./img/harvesting.svg" alt="" class="margin-bt-20" />
+            <img
+              src="./img/harvesting.svg"
+              alt="An icon shows a sack full of coffee beans"
+              class="margin-bt-20"
+            />
             <h3 class="margin-bt-10">Select</h3>
             <p>
               Only the ripest cherries are handpicked and expertly processed to
@@ -64,7 +73,11 @@
             </p>
           </div>
           <div class="journey-card">
-            <img src="./img/roasting.svg" alt="" class="margin-bt-20" />
+            <img
+              src="./img/roasting.svg"
+              alt="An icon shows a coffee package and some coffee beans around it"
+              class="margin-bt-20"
+            />
             <h3 class="margin-bt-10">Transform</h3>
             <p>
               Our master roasters skillfully transform green beans into
@@ -72,7 +85,11 @@
             </p>
           </div>
           <div class="journey-card">
-            <img src="./img/enjoy.svg" alt="" class="margin-bt-20" />
+            <img
+              src="./img/enjoy.svg"
+              alt="An icon shows an espresso machine"
+              class="margin-bt-20"
+            />
             <h3 class="margin-bt-10">Savor</h3>
             <p>
               Finally, savor the fruits of our labor exceptional coffee that
@@ -82,6 +99,146 @@
         </div>
       </div>
     </section>
-    <section class="ethical-practices"></section>
+    <section class="ethical-practices" id="ethics">
+      <div class="container">
+        <img
+          src="./img/certified.svg"
+          alt="An icon that complies with the Rainforest Alliance certification"
+        />
+        <div class="ethical-text">
+          <p>
+            At Bean Brewers, we prioritize ethical sourcing, working with small
+            farmers and paying fair prices to support their communities. Our
+            sustainable farming and eco-friendly processing protect the
+            environment, ensuring a responsible journey from seed to sip. By
+            choosing our coffee, you support a transparent, ethical supply chain
+            that values people and the planet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="coffee-blends" id="blends">
+      <div class="container">
+        <div class="blend-title">
+          <h2>Our Coffee Blends</h2>
+          <p>Crafted for Perfection, Savored in Every Sip</p>
+        </div>
+        <div class="blend-process">
+          <div class="blend-card">
+            <img
+              src="./img/ethiopia.webp"
+              alt="An image shows a coffee package full of beans from Ethiopia"
+              class="margin-bt-20"
+            />
+            <h3 class="margin-bt-10">Ethiopian Yirgacheffe</h3>
+            <p>
+              Known for its bright acidity and floral notes, this coffee offers
+              a delicate, tea-like body with hints of citrus and jasmine.
+            </p>
+          </div>
+          <div class="blend-card">
+            <img
+              src="./img/brazil.webp"
+              alt="An image shows a coffee package full of beans from Brazil"
+              class="margin-bt-20"
+            />
+            <h3 class="margin-bt-10">Brazilian Santos</h3>
+            <p>
+              A smooth, well-rounded coffee with a medium body and low acidity,
+              offering sweet, nutty flavors with hints of chocolate and caramel.
+            </p>
+          </div>
+          <div class="blend-card">
+            <img
+              src="./img/kenya.webp"
+              alt="An image shows a coffee package full of beans from Kenya"
+              class="margin-bt-20"
+            />
+            <h3 class="margin-bt-10">Kenyan Sunrise</h3>
+            <p>
+              A vibrant coffee with a bold, full body and high acidity, known
+              for its intense fruitiness, with notes of blackcurrant, citrus,
+              and berry.
+            </p>
+          </div>
+          <div class="blend-card">
+            <img
+              src="./img/guatemala.webp"
+              alt="An image shows a coffee package full of beans from Guatemala"
+              class="margin-bt-20"
+            />
+            <h3 class="margin-bt-10">Guatemalan Antigua</h3>
+            <p>
+              Renowned for its full body and rich flavor, this coffee offers
+              deep, smoky notes with hints of cocoa and spice, complemented by
+              bright acidity.
+            </p>
+          </div>
+          <div class="blend-card">
+            <img
+              src="./img/costa-rica.webp"
+              alt="An image shows a coffee package full of beans from Costa Rica"
+              class="margin-bt-20"
+            />
+            <h3 class="margin-bt-10">Costa Rican Tarrazú</h3>
+            <p>
+              A bright and lively coffee with a clean, crisp flavor, featuring a
+              medium body and notes of citrus, apple, and sweet honey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="info">
+      <div class="container">
+        <div class="company-info">
+          <div class="company-logo">
+            <a href="#home"
+              ><img src="./img/coffee-logo-white.png" alt="BeanBrewers Logo"
+            /></a>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://x.com/" target="_blank"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="bi bi-youtube"></i
+            ></a>
+          </div>
+        </div>
+        <div class="find-us">
+          <h2>Find us here:</h2>
+          <ul>
+            <li>New York, USA</li>
+            <li>Paris, France</li>
+            <li>Amsterdam, Netherlands</li>
+            <li>London, UK</li>
+          </ul>
+          <p class="coming-soon">More coming soon</p>
+        </div>
+        <div class="newsletter" id="newsletter">
+          <h2>Join Our Newsletter</h2>
+          <p>
+            Get the latest coffee updates and special offers directly to your
+            inbox.
+          </p>
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Your email address"
+          />
+          <button class="newsletter-btn">Subscribe</button>
+        </div>
+      </div>
+      <div class="container-copyright">
+        <p>&copy; 2024 Bean Brewers, All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -20,6 +20,7 @@
   --black: #000000;
   --background-opacity: rgba(0, 0, 0, 0.65);
   --grey: lightgray;
+  --darkgrey: #2b2b2b;
   --cool-chocolate-brown: #1b1111;
   --creamy-latte: #dcc7a1;
   --warm-mocha: #8b5e3c;
@@ -173,11 +174,13 @@ nav .container {
 /* Journey */
 
 .journey {
+  /* height: 800px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 100px 0 180px 0;
+  background-color: var(--soft-ivory);
 }
 
 .journey-title {
@@ -217,4 +220,188 @@ nav .container {
 .ethical-practices {
   height: 500px;
   background-color: var(--deep-forest-green);
+  display: flex;
+}
+
+.ethical-practices .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ethical-practices img {
+  flex: 1;
+  height: 300px;
+  margin-right: 200px;
+}
+
+.ethical-text p {
+  flex: 3;
+  color: var(--white);
+  font-size: 24px;
+  font-style: italic;
+  text-align: justify;
+  line-height: 2;
+}
+
+/* Coffee Blends */
+
+.coffee-blends {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 180px 0;
+  background-color: var(--soft-ivory);
+}
+
+.blend-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.blend-title p {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.blend-process {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.blend-card {
+  width: 250px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.blend-card img {
+  width: 200px;
+  height: auto;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--darkgrey);
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.company-logo img {
+  height: 50px;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social i {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.social .bi-facebook:hover {
+  color: #1877f2;
+}
+
+.social .bi-instagram:hover {
+  color: #f56040;
+}
+
+.social .bi-twitter-x:hover {
+  color: #1da1f2;
+}
+
+.social .bi-youtube:hover {
+  color: #cd201f;
+}
+
+.find-us {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.find-us h3 {
+  font-size: 24px;
+}
+
+.find-us li {
+  margin-bottom: 5px;
+}
+
+.coming-soon {
+  font-style: italic;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  color: var(--white);
+}
+
+.newsletter p {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.newsletter-input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--deep-forest-green);
+}
+
+.newsletter-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--golden-honey);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.newsletter-btn:hover {
+  color: var(--deep-forest-green);
+}
+
+.container-copyright {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  color: var(--white);
+  font-size: 18px;
 }
