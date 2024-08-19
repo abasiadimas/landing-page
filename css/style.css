@@ -409,6 +409,21 @@ nav .container {
 
 /* Media queries */
 
+/* Xlarge Devices */
+
+@media (max-width: 1400px) {
+  /* Ethical Practices */
+
+  .ethical-practices .container img {
+    height: 220px;
+  }
+
+  .ethical-text p {
+    font-size: 22px;
+    line-height: 1.9;
+  }
+}
+
 /* Large Devices */
 @media (max-width: 1200px) {
   .logo > img {
@@ -436,7 +451,7 @@ nav .container {
   }
 
   .ethical-practices .container img {
-    height: 180px;
+    height: 160px;
     margin-right: 100px;
   }
 
@@ -496,6 +511,8 @@ nav .container {
     font-size: 16px;
   }
 }
+
+/* Medium Devices */
 
 @media (max-width: 768px) {
   /* Navigation Bar */
@@ -595,6 +612,7 @@ nav .container {
   }
 }
 
+/* Mobile Devices */
 @media (max-width: 400px) {
   .newsletter-input {
     width: 100%;
