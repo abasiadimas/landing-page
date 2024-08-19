@@ -1,7 +1,7 @@
 # Bean Brewers Landing Page
 
 > A fictional coffee shop website
-> Live
+> Live https://abasiadimas.github.io/landing-page/
 
 ## Table of Contents
 
@@ -23,12 +23,12 @@
 
 ## Project Status
 
-Project is: \_Ongoing
+Project is: \_Deployed (Testing)
 
 ## Version History
 
--1.0
-Initial Release
+-1.5
+Responsive mode release
 
 ## Authors
 
