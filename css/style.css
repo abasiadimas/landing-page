@@ -583,14 +583,24 @@ nav .container {
   }
 
   .newsletter-input {
+    width: 60%;
+  }
+
+  .newsletter-btn {
+    width: 60%;
+  }
+
+  .newsletter h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .newsletter-input {
     width: 100%;
   }
 
   .newsletter-btn {
     width: 100%;
-  }
-
-  .newsletter h2 {
-    font-size: 20px;
   }
 }
